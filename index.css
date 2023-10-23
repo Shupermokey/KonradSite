@@ -25,6 +25,12 @@
     font-size: 2rem;
 }
 
+.hamburger {
+  position: absolute;
+  top: 20px;
+  right: 15px;
+}
+
 body {
   background-image: url("/Konrad.jpg");
   background-repeat: no-repeat;
@@ -52,6 +58,10 @@ nav div {
 .link a img {
   height: 1.688rem;
   width: 1.688rem;
+}
+
+.hamburger {
+  display: none;
 }
 
 .body-container {
